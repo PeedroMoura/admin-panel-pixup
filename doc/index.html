@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<!-- Meta -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="W3CRM - React Nextjs Admin Dashboard Template">
+	<meta property="og:title" content="W3CRM - React Nextjs Admin Dashboard Template">
+	<meta property="og:description" content="W3CRM - React Nextjs Admin Dashboard Template">
+	<meta property="og:image" content="https://w3crm.dexignzone.com/next/social-image.png">
+	<!-- Title -->
+	<title>W3CRM - React Nextjs Admin Dashboard Template</title>
+		
+	<!-- Favicon -->
+	<link rel="icon" type="image/png" href="images/favicon.png">
+	
+	<!-- Css Style -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/scrollbar.css">
+	<link rel="stylesheet" href="css/font-awesome.css">
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="plugins/jstree/dist/themes/default/style.min.css">
+	
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900|Open+Sans:300,400,600,700,800|Raleway:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+	
+</head>
+<body data-spy="scroll" data-target=".nav-bar" data-offset="50">
+<div class="wrapper" id="tableofcontent">
+
+	<!-- Sidebar Holder -->
+	<nav id="nevbarleft">
+		<div class="side-nav full-height">
+			<div class="sidebar-header">
+				<h2>
+					<img src="images/logo.png" alt="logo" class="small-logo"/>
+					<img src="images/logo-text.png" alt="logo"/>
+				</h2>
+			</div>
+			<div class="nav-bar">
+				<ul class="list-unstyled content-scroll components navbar-nav nav" id="download-button">
+					<li class="active"><a href="#introduction">Introduction</a></li>
+					<li><a href="#react">Installation </a></li>
+					<li><a href="#sass-compile">Sass Compile</a></li>
+					<li><a href="#folder_directories">Folder Directories</a></li>					
+					<li><a href="#plugins"> Credits</a></li>
+					<li><a href="#main">Project Main Features</a></li>					
+					<li><a href="#create-page">Create Page</a></li>					
+					<li><a href="#our_product">Our Products </a></li>
+					<li><a href="#custom_work">Custom Work Requirements </a></li>
+					<li><a href="#version_history">Version History</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	
+	<!-- Page Content Holder -->
+	<div id="content">
+		
+		<!-- Navber -->
+		<nav class="navbar navbar-default top-nav-bar ">
+			<div class="container-fluid">
+				<div class="navbar-header">
+				   <button type="button" id="sidebarCollapse" class="navbar-btn">
+						<span></span>
+						<span></span>
+						<span></span>
+					</button>
+				</div>
+				<a href="https://support.w3itexperts.com/" target="_blank" class="site-button support-button">Support</a>
+				<a href="https://crm-next-gilt.vercel.app/" target="_blank"  class="site-button support-button">Demo</a>
+			</div>
+		</nav>
+		
+		<!-- Banner -->
+		<section class="app-brief slide-banner">
+			<div class="container">
+				<div class="section-header slider-banr">
+					<h1 class="title">Documentation</h1>
+					<div class="colored-line"></div>
+					<div class="section-description">
+						W3CRM - React Nextjs Admin Dashboard Template
+					</div>
+					<div class="colored-line"></div>
+				</div>
+			</div>
+		</section>
+		
+		<!-- Introduction -->
+		<section class="app-brief" id="introduction">
+			<div class="container center-align">
+				<h2 class="title">W3CRM</h2>
+				<h3>React Nextjs Admin Dashboard Template</h3>
+				<p>W3CRM is a popular open source WebApp template for admin dashboards template and admin panels. It utilizes all of the bootstrap components in design and re-styles many commonly used plugins to create a consistent design that can be used as a user interface for backend applications. </p>
+				<p>Thank you for purchasing this Vite template.</p>
+				<p><strong>If you like this template, Please support us by rating this template with 5 stars </strong> </p>
+			</div>
+		</section>
+		<hr/>
+		
+		
+		
+		<!--  Installation & Setup   -->
+		<section class="app-brief" id="react">
+			<div class="container left-align">
+				<div class="section-header">
+					<h2 class="dark-text title"> Installation  - </h2>
+				</div>
+				<div class="react-init">
+					<h3 class="title">1.- Install npm</h3>
+					<p>It will create 'node_module' folder in this all dependency files will be install with this command.
+					<code>npm install</code></p>
+<pre class="brush:javascript; h-100">npm install
+</pre>					
+					<h3 class="title">2.- Run Project</h3>
+					<p>With is command file will be compiled and it will be loaded on local server `http://localhost:3000`.
+					<code>npm run dev</code></p>
+<pre class="brush: javascript; h-100">npm run dev
+</pre>
+					<h3 class="title">3.- Deploying your site</h3>
+					<p>For More details <strong><a class="text-danger" href="https://nextjs.org/docs/app/building-your-application/deploying" target="_blank">Click here</a></strong></p>
+					
+					<h3 class="title">4.- Further help</h3>
+					<p> You can learn more in the <a class="text-danger" href="https://nextjs.org/docs" target="_blank"> NextJs Documentation</a> To learn Next.</p>
+					
+				</div>
+			</div>	
+		</section>
+		<hr/>
+		<!-- Sass Compile -->
+		<section class="app-brief" id="sass-compile">
+			<div class="container left-align">
+				<div class="section-header">
+					<h2 class="dark-text title">Sass Compile - </h2>
+				</div>
+				<div class="sass-compile">
+					<h3 class="title">1.- Install Sass</h3>
+					<p>Sass is an NPM package that compiles Sass to CSS (which it does very quickly too). To install Sass run the following command in your terminal:  <code>npm add -D sass </code></p>
+<pre class="brush: javascript; h-100">npm add -D sass </pre>
+
+					<h3 class="title">2.- Write Sass Command</h3>
+					<p>Everything is ready to write a small script in order to compile Sass. Open the <strong>package.json</strong> file in a code editor. You will see something like this:</p>
+					<p>In the scripts section add an <strong>scss command</strong></p>					
+<pre class="brush: javascript; h-100">
+"scripts": {
+   "sass": "sass --watch src/assets/scss/main.scss src/assets/css/style.css"
+},
+</pre>
+					
+					<h3 class="title">3.- Run the Script</h3>
+					<p>To execute our one-line script, we need to run the following command in the terminal: <code>npm run sass</code></p>
+<pre class="brush: javascript; h-100">npm run sass</pre>
+				</div>
+			</div>	
+		</section>
+		<hr/>
+		
+		
+		
+		<!-- Folder Directories -->
+		<section class="app-brief" id="folder_directories">
+			<div class="container left-align">
+				<div class="section-header">
+					<h2 class="dark-text">Folder Directories - </h2>
+				</div>
+				<div id="dz_tree" class="tree-demo">
+					<ul>
+						<li data-jstree='{ "opened" : false }'>public</li>	
+						<li data-jstree='{ "opened" : true }'>src
+							<ul>
+								<li data-jstree='{ "selected" : false }'>app
+									<ul >
+										<li data-jstree='{ "selected" : false }'>dashboard
+											<ul>
+												<li data-jstree='{ "type" : "file" }'>page.jsx</li>
+											</ul>
+										</li>
+										<li data-jstree='{ "selected" : false }'>page-route
+											<ul>
+												<li data-jstree='{ "type" : "file" }'>page.jsx</li>
+											</ul>
+										</li>
+										<li data-jstree='{ "selected" : false }'>...
+											<ul>
+												<li data-jstree='{ "type" : "file" }'>page.jsx</li>
+											</ul>
+										</li>										
+										<li data-jstree='{ "type" : "file" }'>layout.jsx</li>
+										<li data-jstree='{ "type" : "file" }'>page.js</li>
+									</ul>
+								</li>
+								<li data-jstree='{ "selected" : false }'>components
+									<ul >
+										<li data-jstree='{ "selected" : false }'>dashboard</li>
+										<li data-jstree='{ "selected" : false }'>bootstrap</li>
+										<li data-jstree='{ "selected" : false }'>...</li>
+									</ul>
+								</li>
+								<li data-jstree='{ "selected" : false }'>assets
+									<ul >
+										<li data-jstree='{ "selected" : false }'>css</li>
+										<li data-jstree='{ "selected" : false }'>icons</li>
+										<li data-jstree='{ "selected" : false }'>images</li>
+										<li data-jstree='{ "selected" : false }'>scss
+											<ul>
+												<li data-jstree='{ "opened" : true }'>abstracts</li>
+												<li data-jstree='{ "opened" : true }'>base</li>
+												<li data-jstree='{ "selected" : false }'>components
+													<ul>
+														<li data-jstree='{ "opened" : true }'>app</li>
+														<li data-jstree='{ "opened" : true }'>charts</li>
+														<li data-jstree='{ "opened" : true }'>forms</li>
+														<li data-jstree='{ "opened" : true }'>ico</li>
+														<li data-jstree='{ "opened" : true }'>map</li>
+														<li data-jstree='{ "opened" : true }'>tables</li>
+														<li data-jstree='{ "opened" : true }'>uc</li>
+														<li data-jstree='{ "opened" : true }'>ui</li>
+														<li data-jstree='{ "opened" : true }'>widget</li>
+													</ul>
+												</li>
+												<li data-jstree='{ "selected" : false }'>layout
+													<ul>
+														<li data-jstree='{ "opened" : true }'>footer</li>
+														<li data-jstree='{ "opened" : true }'>header</li>
+														<li data-jstree='{ "opened" : true }'>rtl</li>
+														<li data-jstree='{ "opened" : true }'>sidebar</li>
+														<li data-jstree='{ "opened" : true }'>theme</li>
+														<li data-jstree='{ "opened" : true }'>typography</li>
+														<li data-jstree='{ "opened" : true }'>version-dark</li>
+														<li data-jstree='{ "opened" : true }'>version-transparent</li>
+													</ul>
+												</li>
+												<li data-jstree='{ "opened" : true }'>pages</li>
+												<li data-jstree='{ "type" : "file" }'>main.scss</li>
+											</ul>
+										</li>
+									</ul>
+								</li>
+								<li data-jstree='{ "selected" : false }'>context
+									<ul>
+										<li data-jstree='{ "type" : "file" }'>ThemeContext.js</li>										
+									</ul>	
+								</li>																
+								<li data-jstree='{ "selected" : false }'>layouts
+									<ul>										
+										<li data-jstree='{ "type" : "file" }'>Header.jsx</li>
+										<li data-jstree='{ "type" : "file" }'>Footer.jsx</li>
+										<li data-jstree='{ "type" : "file" }'>Sidebar.jsx</li>
+										<li data-jstree='{ "type" : "file" }'>NavHader.jsx</li>
+										<li data-jstree='{ "type" : "file" }'>...</li>
+									</ul>	
+								</li>
+							</ul>
+						</li>						
+						<li data-jstree='{ "type" : "file" }'>jsconfig.json</li>
+						<li data-jstree='{ "type" : "file" }'>next.config.mjs</li>
+						<li data-jstree='{ "type" : "file" }'>package-lock.json</li>
+						<li data-jstree='{ "type" : "file" }'>package.json</li>
+						
+					</ul>
+				</div>
+			</div>
+		</section>
+		<hr/>
+		
+		<section class="app-brief" id="plugins">
+			<div class="container left-align">
+				<div class="section-header">
+					<h2 class="dark-text">Credits - </h2>
+				</div>
+				<ul class="list-files">
+					<li>
+						<div class="row">
+							<div class="col-xs-4">
+								<p>Next v14.2.17</p>
+							</div>
+							<div class="col-xs-8">
+								<p><a href="https://vitejs.dev/" class="text-warning" >Click to See</a></p>
+							</div>
+						</div>
+					</li>									
+					<li>
+						<div class="row">
+							<div class="col-xs-4">
+								<p>Font Awesome</p>
+							</div>
+							<div class="col-xs-8">
+								<p><a href="https://fontawesome.com/v4.7.0/" class="text-warning" >Click to See</a></p>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="row">
+							<div class="col-xs-4">
+								<p>All Images are used</p>
+							</div>
+							<div class="col-xs-8">
+								<p><a href="https://www.pexels.com/" class="text-warning" >Pexels.com</a></p>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="row">
+							<div class="col-xs-4">
+								<p>Bootstrap framework</p>
+							</div>
+							<div class="col-xs-8">
+								<p><a href="https://react-bootstrap.github.io/" class="text-warning" >Bootstrap</a></p>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="row">
+							<div class="col-xs-4">
+								<p>Datatables</p>
+							</div>
+							<div class="col-xs-8">
+								<p><a href="https://react-bootstrap.github.io/components/table/" class="text-warning">Click to See</a></p>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="row">
+							<div class="col-xs-4">
+								<p>Table</p>
+							</div>
+							<div class="col-xs-8">
+								<p><a href="https://www.npmjs.com/package/react-table" class="text-warning">Click to See</a></p>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="row">
+							<div class="col-xs-4">
+								<p>Full Calendar</p>
+							</div>
+							<div class="col-xs-8">
+								<p><a href="https://fullcalendar.io/docs/react/" class="text-warning">Calendar</a></p>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="row">
+							<div class="col-xs-4">
+								<p>Sparkline</p>
+							</div>
+							<div class="col-xs-8">
+								<p><a href="https://borisyankov.github.io/react-sparklines/" class="text-warning">Click to See</a></p>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="row">
+							<div class="col-xs-4">
+								<p>Chartjs</p>
+							</div>
+							<div class="col-xs-8">
+								<p><a href="https://www.npmjs.com/package/chartjs-react" class="text-warning">Click to See</a></p>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="row">
+							<div class="col-xs-4">
+								<p>Apexchart</p>
+							</div>
+							<div class="col-xs-8">
+								<p><a href="https://apexcharts.com/react-chart-demos/" class="text-warning">Click to See</a></p>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="row">
+							<div class="col-xs-4">
+								<p>Sweet Alert</p>
+							</div>
+							<div class="col-xs-8">
+								<p><a href="https://www.npmjs.com/package/sweetalert-react" class="text-warning" >Click to See</a></p>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="row">
+							<div class="col-xs-4">
+								<p>lightGallery</p>
+							</div>
+							<div class="col-xs-8">
+								<p><a href="https://www.lightgalleryjs.com/docs/react/" class="text-warning">Click to See</a></p>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="row">
+							<div class="col-xs-4">
+								<p>CkEditor</p>
+							</div>
+							<div class="col-xs-8">
+								<p><a href="https://www.npmjs.com/package/@ckeditor/ckeditor5-react" class="text-warning">Click to See</a></p>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="row">
+							<div class="col-xs-4">
+								<p>Uc Select2</p>
+							</div>
+							<div class="col-xs-8">
+								<p><a href="https://www.npmjs.com/package/react-select2" class="text-warning">Click to See</a></p>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="row">
+							<div class="col-xs-4">
+								<p>Chatbox</p>
+							</div>
+							<div class="col-xs-8">
+								<p><a href="https://www.npmjs.com/package/react-chatbox-component" target="_blank" class="text-warning">Click to See</a></p>
+							</div>
+						</div>
+					</li>								
+				</ul>
+			</div>
+		</section>	
+		<hr/>
+		<section class="app-brief" id="main">	
+			<div class="container left-align">
+				<div class="section-header">
+					<h2 class="dark-text">Project Main Features - </h2>
+				</div>								
+				<div class="row">
+					<div class="col-lg-6">
+						<ul class="features-list">
+							<li><strong ><a href="https://nextjs.org/docs" target="_blank">Nextjs</a></strong></li>							
+							<li>Built in<strong><a href="https://sass-lang.com/" target="_blank"> SASS</a></strong></li>
+							<li>Node v20.10.0</li>
+							<li>Fully Responsive</li>
+							<li>Ready to used widget</li>
+							<li>Detailed Documentation</li>
+							<li>Attractive Calendar</li>
+							<li>Invoice</li>
+							<li>User Profile</li>
+							<li>Timeline</li>
+							<li>CkEditor</li>
+							<li>Form Examples</li>
+							<li>Many Charts Options</li>
+							<li>Form Validation</li>							
+							<li>Input Slider</li>
+						</ul>
+					</div>
+					<div class="col-lg-6">
+						<ul class="features-list">
+							<li><strong><a href="https://react-bootstrap.netlify.app/docs/getting-started/introduction" target="_blank"> Bootstrap</a></strong></li>
+							<li>Advanced Form Elements</li>
+							<li>Form Wizard</li>
+							<li>Social</li>							
+							<li>Datatable</li>	
+							<li>Table Sorting</li>
+							<li>React Table</li>
+							<li>Date Picker</li>
+							<li>Sweetalert</li>
+							<li>Toaster</li>
+							<li>Light Gallery</li>
+							<li>Scroll</li>
+							<li>Chatbox</li>
+							<li>Router</li>
+						</ul>
+					</div>
+
+				</div>	
+			</div>			
+		</section>
+		<hr/>		
+		<section class="app-brief" id="create-page">
+			<div class="container left-align">
+				<h3>Create a Page</h3>
+				<pre class="prettyprint lang-html linenums">
+export default function MyPage() {
+  return(
+   &lt;h1&gt;Hello!&lt;/h1&gt;
+  ) 
+} 							
+					</pre>	
+			</div>
+		</section>	
+		<hr/>		
+				
+		<!-- Our Products -->
+		<section class="app-brief" id="our_product">
+			<div class="container left-align">
+				<div class="section-header">
+					<h2 class="dark-text">Our Products - </h2>
+				</div>
+				<div class="row other-theme">
+					<div class="col-md-4 col-sm-6 m-b30">
+						<div class="product-port-bx">
+							<a target="_blank" href="https://1.envato.market/ZdXYkz">
+								<img src="images/product/samar.png"  alt=""/>
+							</a>
+							<div class="product-info">
+								<h4 class="title">
+									<a target="_blank" href="https://1.envato.market/ZdXYkz">
+										Samar | Creative Agency React NextJs Template
+									</a>
+								</h4>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6 m-b30">
+						<div class="product-port-bx">
+							<a target="_blank" href="https://1.envato.market/KeX1Rn">
+								<img src="images/product/lezato.png"  alt="" />
+							</a>
+							<div class="product-info">
+								<h4 class="title">
+									<a target="_blank" href="https://1.envato.market/KeX1Rn">
+										Lezato : React Redux Restaurant Admin Template
+									</a>
+								</h4>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6 m-b30">
+						<div class="product-port-bx">
+							<a target="_blank" href="https://1.envato.market/DV3OMG">
+								<img src="images/product/boltz.png"  alt=""/>
+							</a>
+							<div class="product-info">
+								<h4 class="title">
+									<a target="_blank" href="https://1.envato.market/DV3OMG">
+										Boltz - React Crypto Admin and Dashboard Template
+									</a>
+								</h4>
+							</div>
+						</div>
+					</div>
+										
+					<div class="col-md-4 col-sm-6 m-b30">
+						<div class="product-port-bx">
+							<a target="_blank" href="https://1.envato.market/YE2xP">
+								<img src="images/product/jobboard.png"  alt=""/>
+							</a>
+							<div class="product-info">
+								<h4 class="title">
+									<a target="_blank" href="https://1.envato.market/YE2xP">
+										Job Board - Job Board React Template
+									</a>
+								</h4>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6 m-b30">
+						<div class="product-port-bx">
+							<a target="_blank" href="https://1.envato.market/3PZ9Ny">
+								<img src="images/product/kripton.png"  alt=""/>
+							</a>
+							<div class="product-info">
+								<h4 class="title">
+									<a target="_blank" href="https://1.envato.market/3PZ9Ny">
+										Kripton - React Redux Crypto Admin Dashboard
+									</a>
+								</h4>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6 m-b30">
+						<div class="product-port-bx">
+							<a target="_blank" href="https://1.envato.market/Ke2MvA">
+								<img src="images/product/mophy.png"  alt=""/>
+							</a>
+							<div class="product-info">
+								<h4 class="title">
+									<a target="_blank" href="https://1.envato.market/Ke2MvA">
+										MOPHY - Payment React Redux Admin Dashboard 
+									</a>
+								</h4>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6 m-b30">
+						<div class="product-port-bx">
+							<a target="_blank" href="https://1.envato.market/QO6bbY">
+								<img src="images/product/karciz.png"  alt=""/>
+							</a>
+							<div class="product-info">
+								<h4 class="title">
+									<a target="_blank" href="https://1.envato.market/QO6bbY">
+										Karciz - React Redux Ticketing Admin Dashboard
+									</a>
+								</h4>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6 m-b30">
+						<div class="product-port-bx">
+							<a target="_blank" href="https://1.envato.market/9WAjVQ">
+								<img src="images/product/kingarchitect.png"  alt=""/>
+							</a>
+							<div class="product-info">
+								<h4 class="title">
+									<a target="_blank" href="https://1.envato.market/9WAjVQ">
+										KingArchitect | Property Portfolio & Real Estate React Template - No JQuery
+									</a>
+								</h4>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6 m-b30">
+						<div class="product-port-bx">
+							<a target="_blank" href="https://1.envato.market/Aveej">
+								<img src="images/product/industry.png"  alt=""/>
+							</a>
+							<div class="product-info">
+								<h4 class="title">
+									<a target="_blank" href="https://1.envato.market/Aveej">
+										Industry - Factory & Industrial React Template
+									</a>
+								</h4>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6 m-b30">
+						<div class="product-port-bx">
+							<a target="_blank" href="https://1.envato.market/RyP7L7">
+								<img src="images/product/umang.png"  alt=""/>
+							</a>
+							<div class="product-info">
+								<h4 class="title">
+									<a target="_blank" href="https://1.envato.market/RyP7L7">
+										Umang Academy : Kindergarten, Kids Play School React Template
+									</a>
+								</h4>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6 m-b30">
+						<div class="product-port-bx">
+							<a target="_blank" href="https://1.envato.market/3PdonK">
+								<img src="images/product/uena.png"  alt=""/>
+							</a>
+							<div class="product-info">
+								<h4 class="title">
+									<a target="_blank" href="https://1.envato.market/3PdonK">
+										Uena - React Saas Admin Dashboard Template
+									</a>
+								</h4>
+							</div>
+						</div>
+					</div>					
+					
+					<div class="col-md-4 col-sm-6 m-b30">
+						<div class="product-port-bx">
+							<a target="_blank" href="https://1.envato.market/Q5MyA">
+								<img src="images/product/metroadmin.png"  alt=""/>
+							</a>
+							<div class="product-info">
+								<h4 class="title">
+									<a target="_blank" href="https://1.envato.market/Q5MyA">
+										MetroAdmin - Bootstrap, Laravel & React Admin Dashboard
+									</a>
+								</h4>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</section>
+		
+		<!-- Need Help -->
+		<section class="app-brief" id="custom_work" style="background-image: url(images/bg1.png); background-position: left center;">
+			<div class="container left-align">
+				<div class="col-md-12 text-center custom-info">
+					<h2 class="m-t0">Do You Need Help To Customization</h2>
+					<h3 class="text-primary">After Purchase A Template...</h3>
+					<h4>You Will Start Customizing According Your Requirement<br/> <span class="text-primary">BUT</span> What If You Don't Know</h4>
+					<h3 class="text-black">SOLUTION IS <span class="text-primary"><u>HIRE DexignZone</u></span></h3>
+					<div class="hire">
+						<h4><span class="text-black">Hire Same Team For </span> <span class="text-primary">Quality Customization</span></h4>
+						<ul>
+							<li>We Will Customize Template According To Your Requirement</li>
+							<li>We Will Upload On Server And Make Sure Your Website is Live</li>
+						</ul>
+						<div class="gmail-box">
+							<a href="skype:rahulxarma?chat" class="gmail"><i class="fa fa-skype"></i>rahulxarma</a>
+							<a target="_blank" href="mailto:dexignzones@gmail.com" class="gmail"><i class="fa fa-envelope"></i> dexignzones@gmail.com</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<!-- Change Log -->
+		<section class="version-block change-log" id="version_history">
+			<div class="container version-block-content">
+				<div class="">
+					<h2 class="dark-text">Version History - <small class="topbutton">					
+					</small></h2>
+				</div>						
+				<h5><span class="text-primary">v1.0</span> -  25 November 2024</h5>				
+				<ul>
+					<li>New - Created & Upload Next W3CRM </li>
+				</ul>
+			</div>
+		</section>
+			
+		<!-- Footer -->
+		<footer class="footer grey-bg">
+			<div class="container">
+				<p class="copyright">
+					© 2024 DexignZone , All Rights Reserved
+				</p>
+			</div>
+		</footer>
+	
+	</div>
+</div>
+	
+<!-- JavaScript -->
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/smoothscroll.js"></script>
+<script src="js/jquery.scrollTo.min.js"></script>
+<script src="js/jquery.localScroll.min.js"></script>
+<script src="js/load.js"></script>
+<script src="js/custom.js"></script>
+<script src="js/scrollbar.min.js"></script>
+<script src="plugins/jstree/dist/jstree.min.js"></script>
+<script>
+// prettyPhoto
+jQuery(document).ready(function(){
+	jQuery('.dzClickload').click(function(){
+		jQuery('.dzClickload').removeClass('active');
+		jQuery(this).addClass('active');
+	});
+	
+	jQuery(".content-scroll").mCustomScrollbar({
+		setWidth:false,
+		setHeight:false,
+		axis:"y"
+	});	
+		
+	$(".full-height").css("height", $(window).height());
+	
+	$("#dz_tree").jstree({
+		"core": {
+			"themes": {
+				"responsive": false
+			}
+		},
+		"types": {
+			"default": {
+				"icon": "fa fa-folder"
+			},
+			"file": {
+				"icon": "fa fa-file-text"
+			}
+		},
+		"plugins": ["types"]
+	});
+});
+</script>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $(".navbar-nav a").on('click', function(event) {
+
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      });
+    } // End if
+  });
+});
+</script>
+</body>
+</html>

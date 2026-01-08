@@ -1,0 +1,32 @@
+{
+  "components\\dashboard\\CardWidget.jsx -> ./AllProjectDonutChart": {
+    "id": "components\\dashboard\\CardWidget.jsx -> ./AllProjectDonutChart",
+    "files": [
+      "static/chunks/_app-pages-browser_src_components_dashboard_AllProjectDonutChart_jsx.js"
+    ]
+  },
+  "components\\dashboard\\CardWidget.jsx -> ./DepositlineChart": {
+    "id": "components\\dashboard\\CardWidget.jsx -> ./DepositlineChart",
+    "files": [
+      "static/chunks/_app-pages-browser_src_components_dashboard_DepositlineChart_jsx.js"
+    ]
+  },
+  "components\\dashboard\\EarningBlog.jsx -> ./EarningChart": {
+    "id": "components\\dashboard\\EarningBlog.jsx -> ./EarningChart",
+    "files": [
+      "static/chunks/_app-pages-browser_src_components_dashboard_EarningChart_jsx.js"
+    ]
+  },
+  "components\\dashboard\\ProjectOverviewTab.jsx -> ./ProjectOverviewChart": {
+    "id": "components\\dashboard\\ProjectOverviewTab.jsx -> ./ProjectOverviewChart",
+    "files": [
+      "static/chunks/_app-pages-browser_src_components_dashboard_ProjectOverviewChart_jsx.js"
+    ]
+  },
+  "components\\dashboard\\ProjectStatusBlog.jsx -> ./ProjectStatusBlogDonutChart": {
+    "id": "components\\dashboard\\ProjectStatusBlog.jsx -> ./ProjectStatusBlogDonutChart",
+    "files": [
+      "static/chunks/_app-pages-browser_src_components_dashboard_ProjectStatusBlogDonutChart_jsx.js"
+    ]
+  }
+}
